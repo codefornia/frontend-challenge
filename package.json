@@ -1,0 +1,42 @@
+{
+  "name": "frontend-challenge",
+  "version": "1.0.0",
+  "description": "Привет! Если ты хочешь стать частью команды Учи.ру в рамках стажёрской программы,  то тебе необходимо выполнить небольшое тестовое задание. Это нужно, что бы твои  потенциальные наставники смогли оценить твои навыки и сравнив их с остальными кандидатами выбрать лучших из лучших.",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "islukina",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.25",
+    "@types/react-dom": "18.2.11",
+    "gh-pages": "^6.1.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
